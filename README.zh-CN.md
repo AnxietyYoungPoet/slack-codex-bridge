@@ -1,5 +1,7 @@
 # Slack Codex Bridge
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 从 Slack 控制本机运行的 `codex` CLI。
 
 这个仓库运行一个本地守护进程，通过 Slack Socket Mode 接收消息，把 Slack 线程映射到本机 Codex session，并把最终结果回发到 Slack。它支持按线程切换工作目录、高风险操作审批，以及根据 Codex 回复中的图片标记上传本地图片。

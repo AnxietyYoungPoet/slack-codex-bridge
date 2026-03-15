@@ -1,5 +1,7 @@
 # Slack Codex Bridge
 
+[English](./README.md) | [简体中文](./README.zh-CN.md)
+
 Control a local `codex` CLI agent from Slack.
 
 This repository runs a local daemon that connects to Slack over Socket Mode, accepts messages from an allowlisted user, maps Slack threads to Codex sessions, and sends final results back to Slack. It also supports per-thread workspace switching, approval for high-risk requests, and uploading local image files mentioned by Codex replies.
